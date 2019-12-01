@@ -1,0 +1,33 @@
+actors:
+  takahiro:
+    image_url: /images/actors/takahiro.jpg
+    name: 進地崇裕
+    url: https://www.facebook.com/shinchi.xx
+  shigetaka:
+    image_url: /images/actors/shigetaka.jpg
+    name: 福田茂孝
+    url: https://www.facebook.com/fukudashigetaka
+author: SOREKIYU
+description: より効果的にハタラクための処方箋
+description_long: SOREKIYU（それは杞憂です）は、より効果的にハタラクための処方箋を配信するPodcastです。ログ、フィードバックループ、強み分析、集中とフローなど様々な切り口で本当に成し遂げたいことに集中する方法について考察します。パーソナリティは旅する読書家福田茂孝とソーシャルプログラマ進地崇裕。高校時代からの友人でありながらも異業種でハタラク二人がおりなす真剣勝負です。
+email: sorekiyu@gmail.com
+exclude:
+  - docker
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+  - vendor
+google_analytics:
+hashtag: Podcast, Working, more effective, ハタラク, 働く, 生産性, 効果的, スマート, 福田茂孝, 進地崇裕
+itunes_podcast_url:
+keywords: Podcast, Working, more effective, ハタラク, 働く, 生産性, 効果的, スマート, 福田茂孝, 進地崇裕
+language: ja
+markdown: kramdown
+permalink: /episode/:title
+sass:
+  sass_dir: css
+timezone: Asia/Tokyo
+title: SOREKIYU
+url: https://sorekiyu.jp
