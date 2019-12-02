@@ -31,3 +31,5 @@ sass:
 timezone: Asia/Tokyo
 title: SOREKIYU
 url: https://sorekiyu.jp
+
+theme: jekyll-theme-cayman
