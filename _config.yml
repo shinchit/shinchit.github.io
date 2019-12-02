@@ -30,6 +30,6 @@ sass:
   sass_dir: css
 timezone: Asia/Tokyo
 title: SOREKIYU
-url: http://sorekiyu.jp
+url: https://sorekiyu.jp
 
 theme: jekyll-theme-cayman
