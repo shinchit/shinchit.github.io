@@ -9,7 +9,7 @@ actors:
     url: https://www.facebook.com/fukudashigetaka
 author: SOREKIYU
 description: より効果的にハタラクための処方箋
-description_long: SOREKIYU（それは杞憂です）は、より効果的にハタラクための処方箋を配信するPodcastです。ログ、フィードバックループ、強み分析、集中とフローなど様々な切り口で本当に成し遂げたいことに集中する方法について考察します。パーソナリティは旅する読書家<a href="https://www.facebook.com/fukudashigetaka">福田茂孝</a>とソーシャルプログラマ<a href="https://www.facebook.com/shinchi.xx">進地崇裕</a>。高校時代からの友人でありながらも異業種でハタラク二人がおりなす真剣勝負です。
+description_long: より効果的にハタラクための処方箋を配信するPodcastです。ログ、フィードバックループ、強み分析、集中とフローなど様々な切り口で本当に成し遂げたいことに集中する方法について考察します。パーソナリティは旅する読書家<a href="https://www.facebook.com/fukudashigetaka">福田茂孝</a>とソーシャルプログラマ<a href="https://www.facebook.com/shinchi.xx">進地崇裕</a>。高校時代からの友人でありながらも異業種でハタラク二人がおりなす真剣勝負
 email: info@sorekiyu.jp
 exclude:
   - docker
