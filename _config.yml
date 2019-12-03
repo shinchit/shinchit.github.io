@@ -31,5 +31,6 @@ sass:
 timezone: Asia/Tokyo
 title: SOREKIYU
 url: https://sorekiyu.jp
+lfs_path: https://media.githubusercontent.com/media/shinchit/shinchit.github.io/master
 
 theme: jekyll-theme-cayman
