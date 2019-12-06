@@ -21,7 +21,7 @@ exclude:
   - vendor
 google_analytics: UA-89481454-3
 hashtag: sorekiyu
-itunes_podcast_url:
+itunes_podcast_url: https://podcasts.apple.com/jp/podcast/sorekiyu/id1490185781
 keywords: Podcast, Working, more effective, ハタラク, 働く, 生産性, 効果的, スマート, 福田茂孝, 進地崇裕
 language: ja
 markdown: kramdown
@@ -32,5 +32,4 @@ timezone: Asia/Tokyo
 title: SOREKIYU
 url: https://sorekiyu.jp
 lfs_path: https://media.githubusercontent.com/media/shinchit/shinchit.github.io/master
-
 theme: jekyll-theme-cayman
