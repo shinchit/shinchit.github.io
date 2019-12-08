@@ -25,6 +25,7 @@
                 preload="auto"
                 src="{{ page.audio_file_path | prepend:site.lfs_path }}"
                 width="100%"
+                onplay="ga('send', 'event', 'Podcasts', 'Play')"
               >
               </audio>
             </p>
