@@ -25,13 +25,13 @@
                 preload="auto"
                 src="{{ page.audio_file_path | prepend:site.lfs_path }}"
                 width="100%"
-                onplay="ga('send', 'event', 'Podcasts', 'Play')"
+                onplay="ga('send', 'event', 'Podcasts', 'Play', '{{ page.audio_file_path }}')"
               >
               </audio>
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.lfs_path }}" onclick="ga('send', 'event', 'Podcasts', 'Download')">MP3ファイルをダウンロード</a>
+                  <a href="{{ page.audio_file_path | prepend:site.lfs_path }}" onclick="ga('send', 'event', 'Podcasts', 'Download', '{{ page.audio_file_path }}')">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>
