@@ -31,7 +31,7 @@
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.lfs_path }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path | prepend:site.lfs_path }}" onclick="ga('send', 'event', 'Podcasts', 'Download')">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>
