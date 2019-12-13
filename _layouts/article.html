@@ -56,9 +56,15 @@
             {{ content }}
           </section>
           <footer class="article-footer">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
-              Tweet
-            </a>
+            <div>
+              <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
+                Tweet
+              </a>
+            </div>
+            <div class="fb-share-button"
+              data-href="{{ site.github.url }}{{ page.url }}"
+              data-layout="button_count">
+            </div>
           </footer>
         </article>
       </div>
