@@ -28,4 +28,8 @@
     display: inline-block;
     vertical-align: top;
   }
+
+  footer > ul > li + li {
+    margin-left: 10px;
+  }
 }
