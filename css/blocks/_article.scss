@@ -17,7 +17,14 @@
     width: 100%;
   }
 
-  footer > div {
+  footer > ul {
+    list-style: none;
+    font-size: 0;
+    display: block;
+  }
+
+  footer > ul > li {
+    font-size: 1em;
     display: inline-block;
     vertical-align: top;
   }

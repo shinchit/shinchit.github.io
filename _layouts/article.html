@@ -2,8 +2,7 @@
 <html lang={{ site.language }}>
   {% include head.html %}
   <body>
-    {% include header.html %}
-    <main class="main">
+    {% include header.html %} <main class="main">
       <div class="container">
         <article class="article card">
           <header class="article-header card-header">
@@ -56,15 +55,19 @@
             {{ content }}
           </section>
           <footer class="article-footer">
-            <div>
-              <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
-                Tweet
-              </a>
-            </div>
-            <div class="fb-share-button"
-              data-href="{{ site.github.url }}{{ page.url }}"
-              data-layout="button_count">
-            </div>
+            <ul>
+              <li>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
+                  Tweet
+                </a>
+              </li>
+              <li>
+                <div class="fb-share-button"
+                  data-href="{{ site.github.url }}{{ page.url }}"
+                  data-layout="button_count">
+                </div>
+              </li>
+            </ul>
           </footer>
         </article>
       </div>
