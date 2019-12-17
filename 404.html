@@ -1,1 +1,19 @@
-not found
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript">
+      let redirect_to = 'https://www.facebook.com';
+      let path_name = window.location.pathname;
+
+      if(path_name.match(/feed.xml$/)) {
+        location.href = redirect_to;
+      } else {
+        location.href = 'https://sorekiyu.jp/';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>404 Not Found</h1>
+  </body>
+</html>
+}
