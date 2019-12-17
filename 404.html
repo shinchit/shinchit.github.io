@@ -4,13 +4,10 @@
     <script type="text/javascript">
       let redirect_to = 'https://anchor.fm/s/11ab3630/podcast/rss';
       let path_name = window.location.pathname;
-
-      console.log(path_name);
-
-      if(path_name.match(/feed.xml$/)) {
-        // location.href = redirect_to;
+      if(path_name.match(/^\/feed.xml$/)) {
+        location.href = redirect_to;
       } else {
-        // location.href = 'https://sorekiyu.jp/';
+        location.href = 'https://sorekiyu.jp/';
       }
     </script>
   </head>
