@@ -1,5 +1,4 @@
 ---
 title: SOREKIYU
-redirect_from: /hoge.html
 redirect_to: https://www.facebook.com/
 ---
