@@ -17,8 +17,8 @@
             </div>
           </header>
           <section class="card-body markdown">
-	    <div class="container">
-              <div class="item player">
+	    <div class="embed-container">
+              <div class="player">
                 {% if page.content_link != nil %}
                 <iframe src="{{ page.content_link | replace: "podcasts.apple.com", "embed.podcasts.apple.com" | replace: "&", "&amp;" }}" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
                 {% else %}
@@ -34,7 +34,7 @@
                 </audio>
                 {% endif %}
               </div>
-	      <div class="item button">
+	      <div class="badge">
                 <a href="{{ page.content_link | replace: "&", "&amp;" }}" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/ja-JP?size=250x83&amp;releaseDate=1589554800&h=101c961cc378ea9e59a8c34b363c846c" alt="Listen on Apple Podcasts" style="border-radius: 13px; width: 250px; height: 83px;"></a>
               </div>
             </div>
