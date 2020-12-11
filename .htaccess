@@ -2,4 +2,4 @@
 ---
 
 RewriteEngine On
-RewriteRule feed.xml$ https://anchor.fm/s/43f1a638/podcast/rss [R=301,L]
+RewriteRule /feed.xml$ https://anchor.fm/s/43f1a638/podcast/rss [R=301,L]
