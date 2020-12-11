@@ -17,22 +17,27 @@
             </div>
           </header>
           <section class="card-body markdown">
-            <p>
-              {% if page.content_link != nil %}
-              <iframe src="{{ page.content_link | replace: "podcasts.apple.com", "embed.podcasts.apple.com" | replace: "&", "&amp;" }}" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
-              {% else %}
-              <audio
-                class="mejs-player"
-                controls=""
-                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-                preload="auto"
-                src="{{ page.audio_file_path | prepend:site.lfs_path }}"
-                width="100%"
-                onplay="ga('send', 'event', 'Podcasts', 'Play', '{{ page.audio_file_path }}')"
-              >
-              </audio>
-              {% endif %}
-            </p>
+	    <div class="container">
+              <div class="item">
+                {% if page.content_link != nil %}
+                <iframe src="{{ page.content_link | replace: "podcasts.apple.com", "embed.podcasts.apple.com" | replace: "&", "&amp;" }}" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+                {% else %}
+                <audio
+                  class="mejs-player"
+                  controls=""
+                  data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+                  preload="auto"
+                  src="{{ page.audio_file_path | prepend:site.lfs_path }}"
+                  width="100%"
+                  onplay="ga('send', 'event', 'Podcasts', 'Play', '{{ page.audio_file_path }}')"
+                >
+                </audio>
+                {% endif %}
+              </div>
+	      <div class="item">
+                <a href="{{ page.content_link }}" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-US?size=250x83&amp;releaseDate=1589554800&h=77954d486fc54fecedfde8b6a2b54075" alt="Listen on Apple Podcasts" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+              </div>
+            </div>
             <h2>
               内容紹介
             </h2>
