@@ -35,5 +35,3 @@ lfs_path: https://media.githubusercontent.com/media/shinchit/shinchit.github.io/
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-redirect-from
-include:
-  - .htaccess
