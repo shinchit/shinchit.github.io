@@ -18,7 +18,7 @@
             {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> をご利用ください。
           </div>
           <div class="footer-twitter">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.url }}">
               Tweet
             </a>
           </div>
@@ -37,7 +37,7 @@
               </li>
             {% endif %}
             <li>
-              <a href="https://open.spotify.com/show/5Qf7R2xonJIhkxqQoAjn4M"><img src="{{ site.github.url }}/images/spotify.png" alt="Listen on Spotify"></a>
+              <a href="https://open.spotify.com/show/5Qf7R2xonJIhkxqQoAjn4M"><img src="{{ site.url }}/images/spotify.png" alt="Listen on Spotify"></a>
             <li>
               <a href="https://sorekiyu.jp/feed.xml" target="_blank">RSSで購読</a>
             </li>
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      © 2017-2019 <a href="{{ site.github.url }}/">{{ site.title }}</a>
+      © 2017-2019 <a href="{{ site.url }}/">{{ site.title }}</a>
     </div>
   </div>
 </footer>
